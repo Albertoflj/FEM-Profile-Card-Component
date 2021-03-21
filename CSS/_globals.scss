@@ -1,0 +1,33 @@
+.flex{
+    display: flex;
+    &-jc-c{
+        justify-content: center;
+    }
+    &-ai-c{
+        align-items: center;
+    }
+    &-ac-c{
+        align-content: center;
+    }
+    &-fd-c{
+        flex-direction: column;
+    }
+    &-jc-sa{
+        justify-content: space-around;
+    }
+}
+.oh{
+    overflow: hidden;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: $DarkCyan;
+    overflow-x: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+ }
+ .bg-image1{
+     position: relative;
+ }
+ .bg-image2{
+}
